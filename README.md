@@ -16,6 +16,9 @@ We have REST endpoint which needs to call long running function in the body:
 
 ```js
 const { fork } = require('child_process');
+const express = require('express')
+const app = express()
+
 app.get('/endpoint', (request, response) => {
    // fork another process
    const process = fork('./send_mail.js');
