@@ -1,4 +1,5 @@
 # Multithreaded-Programming
+## NodeJS
 Node.js is a single threaded language which in background uses multiple threads to execute asynchronous code.
 Node.js is non-blocking which means that all functions ( callbacks ) are delegated to the event loop and they are ( or can be ) executed by different threads. That is handled by Node.js run-time.
 
@@ -52,3 +53,9 @@ process.on('message', async (message) => {
 ```
 
 In this simple example we have demonstrated how you can send data to the forked process and how you can send it back.
+
+## Python
+
+## Java
+
+## Go
